@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const validPassword = 'secret123';
 
     if (username === validUsername && password === validPassword) {
-        window.location.href = 'ecom.html';
+        window.location.href = 'index.html';
     } else {
         errorElement.textContent = 'Invalid username or password.';
     }
